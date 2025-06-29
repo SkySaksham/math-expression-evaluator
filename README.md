@@ -4,23 +4,23 @@ A **Terminal-Based Mathematical Expression Evaluator** built using pure Python. 
 
 ## ✨ Features
 
-- ✅ Supports:
+- Supports:
   - Addition (`+`)
   - Subtraction (`-`)
   - Multiplication (`*`, `×`, `x`, `X`)
   - Division (`/`, `÷`)
   - Exponentiation (`^`)
-- ✅ Handles:
+- Handles:
   - Nested brackets `()`
   - Unary operators (`-5 + 2`, `+4-3`)
   - Operator precedence (`BODMAS/PEMDAS`)
-- ✅ Error Handling:
+- Error Handling:
   - Mismatched brackets
   - Zero Division Error
   - Invalid characters
   - Invalid operator sequences (`++`, `**/`, etc.)
 
-## 🚀 How to Run
+##  How to Run
 
 1. **Clone or Download the Repository**
 
@@ -44,7 +44,7 @@ A **Terminal-Based Mathematical Expression Evaluator** built using pure Python. 
    32.0
    ```
 
-## 🧠 Example Expressions
+## Example Expressions
 
 | Input                                    | Output |
 |-------------------------------------------|--------|
@@ -55,7 +55,7 @@ A **Terminal-Based Mathematical Expression Evaluator** built using pure Python. 
 | `5 + --3` *(double minus handled as plus)*| 8.0    |
 | `5 + 3x4` *(multiplication with 'x')*     | 17.0   |
 
-## ⚠️ Error Handling Examples
+##  Error Handling Examples
 
 | Problem                        | Example      | Error Message                        |
 |---------------------------------|--------------|---------------------------------------|
@@ -65,7 +65,7 @@ A **Terminal-Based Mathematical Expression Evaluator** built using pure Python. 
 | Invalid Operator Sequence       | `5 ** / 3`   | `**/ Cant Be Evaluated !!`           |
 | Division by Zero                | `5 / 0`      | Zero Division Error                  |
 
-## 📜 Function Overview
+## Function Overview
 
 | Function                | Purpose                                                        |
 |-------------------------|----------------------------------------------------------------|
@@ -81,7 +81,7 @@ A **Terminal-Based Mathematical Expression Evaluator** built using pure Python. 
 | `bracket_evaluator()`   | Handles nested brackets recursively.                           |
 | `evaluate()`            | Main function to call for evaluating expressions.              |
 
-## ✅ How to Use in Other Python Programs
+## How to Use in Other Python Programs
 
 ```python
 from calculator import evaluate
@@ -95,7 +95,7 @@ print("Result:", result)
 - Python 3.x
 - No external libraries required
 
-## 💡 Future Improvements
+## Future Improvements
 
 - Add support for:
   - Mathematical functions (`sin()`, `cos()`, `sqrt()`)
@@ -104,10 +104,10 @@ print("Result:", result)
 - Implement a GUI or Web-based interface
 - Improve error reporting with line/index pointers
 
-## 📜 License
+##  License
 
 This project is open-source and free to use under the **MIT License**.
 
-## 🤝 Contributions
+##  Contributions
 
-Suggestions, bug reports, and contributions are welcome. Feel free to fork this project and improve it! 🚀
+Suggestions, bug reports, and contributions are welcome.
