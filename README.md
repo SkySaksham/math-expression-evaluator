@@ -1,6 +1,6 @@
 # Expression Evaluator
 
-A **Terminal-Based Mathematical Expression Evaluator** built using pure Python. This program parses and computes mathematical expressions with correct operator precedence, bracket handling, and error detection — like a basic calculator.
+A **Terminal-Based Mathematical Expression Evaluator** built using pure Python. This program parses and computes mathematical expressions with correct operator precedence, bracket handling, and error detection like a basic calculator.
 
 ## ✨ Features
 
