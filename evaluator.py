@@ -257,16 +257,15 @@ def bracket_evaluator(a) :
 
 
 
-def run(x=True) :
+def evaluate(x=True) :
 	data0 = in_put(x)
 	
 	if check_errors(data0) == None :
-		return None
+		return 
 	
 	tokens = list_maker (data0)
 	result = expression_evaluator(bracket_evaluator(tokens))
-	print (result)
+	return result
 	
 
 
-run(1)
